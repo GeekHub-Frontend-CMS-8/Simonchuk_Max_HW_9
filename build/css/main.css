@@ -1,4 +1,19 @@
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.section-header {
+  color: #29323c;
+  width: 100%;
+  text-align: center; }
+  .section-header_title {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Open Sans - Extrabold", sans-serif; }
+  .section-header_description {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 16px;
+    font-family: "Open Sans", sans-serif; }
+
 .section-top {
   background: url("../img/background-top.png") no-repeat center/cover;
   padding-top: 30px; }
@@ -66,6 +81,13 @@
   opacity: 0.7;
   margin: auto; }
 
+.hero__section-header {
+  color: #f2f2f2;
+  margin-bottom: 34px; }
+
+.hero__section-header_title {
+  font-size: 36px; }
+
 .wrapper {
   max-width: 1170px;
   padding: 0 15px;
@@ -76,17 +98,6 @@
   background-color: #f5f5f5;
   padding-top: 99px;
   padding-bottom: 101px; }
-  .services__title {
-    color: #29323c;
-    font: 700 26px "Open Sans - Extrabold", sans-serif;
-    margin-bottom: 16px;
-    text-align: center; }
-  .services__text {
-    opacity: 0.8;
-    color: #29323c;
-    font: 400 14px "Open Sans", sans-serif;
-    text-align: center;
-    margin-bottom: 16px; }
   .services__border {
     max-width: 40px;
     width: 100%;
@@ -125,21 +136,12 @@
     font: 400 14px "Open Sans", sans-serif;
     line-height: 22px;
     text-align: center; }
+  .services__section-header {
+    margin-bottom: 16px; }
 
 .works {
   padding-top: 99px;
   padding-bottom: 101px; }
-  .works__title {
-    color: #29323c;
-    font: 700 26px "Open Sans - Extrabold", sans-serif;
-    margin-bottom: 16px;
-    text-align: center; }
-  .works__text {
-    opacity: 0.8;
-    color: #29323c;
-    font: 400 14px "Open Sans", sans-serif;
-    text-align: center;
-    margin-bottom: 16px; }
   .works__border {
     max-width: 40px;
     width: 100%;
@@ -162,36 +164,36 @@
     max-width: 320px;
     width: 100%;
     height: 200px; }
-  .works__img-first {
-    background: url("../img/img-1.png"); }
-  .works__img-second {
-    background: url("../img/img-2.png"); }
-  .works__img-third {
-    background: url("../img/img-3.png"); }
-  .works__img-fourth {
-    background: url("../img/img-4.png"); }
-  .works__img-fifth {
-    background: url("../img/img-5.png"); }
-  .works__img-sixth {
-    background: url("../img/img-6.png"); }
-  .works__img-seventh {
-    background: url("../img/img-7.png"); }
-  .works__img-eighth {
-    background: url("../img/img-8.png"); }
-  .works__img-ninth {
-    background: url("../img/img-9.png"); }
-  .works__img-tenth {
-    background: url("../img/img-10.png"); }
-  .works__img-eleventh {
-    background: url("../img/img-11.png"); }
-  .works__img-twelfth {
-    background: url("../img/img-12.png"); }
-  .works__img-thirteenth {
-    background: url("../img/img-13.png"); }
-  .works__img-fourteenth {
-    background: url("../img/img-14.png"); }
-  .works__img-fifteenth {
-    background: url("../img/img-15.png"); }
+  .works__img-one-icon {
+    background-image: url("../img/img-one.png"); }
+  .works__img-two-icon {
+    background-image: url("../img/img-two.png"); }
+  .works__img-three-icon {
+    background-image: url("../img/img-three.png"); }
+  .works__img-four-icon {
+    background-image: url("../img/img-four.png"); }
+  .works__img-five-icon {
+    background-image: url("../img/img-five.png"); }
+  .works__img-six-icon {
+    background-image: url("../img/img-six.png"); }
+  .works__img-seven-icon {
+    background-image: url("../img/img-seven.png"); }
+  .works__img-eight-icon {
+    background-image: url("../img/img-eight.png"); }
+  .works__img-nine-icon {
+    background-image: url("../img/img-nine.png"); }
+  .works__img-ten-icon {
+    background-image: url("../img/img-ten.png"); }
+  .works__img-eleven-icon {
+    background-image: url("../img/img-eleven.png"); }
+  .works__img-twelf-icon {
+    background-image: url("../img/img-twelf.png"); }
+  .works__img-thierteen-icon {
+    background-image: url("../img/img-thierteen.png"); }
+  .works__img-fourteen-icon {
+    background-image: url("../img/img-fourteen.png"); }
+  .works__img-fifteen-icon {
+    background-image: url("../img/img-fifteen.png"); }
   .works__item--hover {
     display: flex;
     flex-direction: column;
@@ -215,6 +217,8 @@
     opacity: 0.8;
     color: #f2f2f2;
     font: 400 13px "Montserrat", sans-serif; }
+  .works__section-header {
+    margin-bottom: 17px; }
 
 .clients {
   padding-top: 100px;
@@ -270,3 +274,140 @@
     color: #29323c;
     font: 400 13px "Montserrat", sans-serif;
     text-align: center; }
+  .clients__section-header {
+    margin-bottom: 16px; }
+
+.team {
+  background: url("../img/background-team.png") no-repeat center/cover;
+  padding-top: 100px;
+  padding-bottom: 98px; }
+  .team__title {
+    color: #f2f2f2;
+    font: 700 26px "Open Sans - Extrabold", sans-serif;
+    margin-bottom: 16px;
+    text-align: center; }
+  .team__text {
+    opacity: 0.8;
+    color: #f2f2f2;
+    font: 400 14px "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 16px; }
+  .team__border {
+    max-width: 40px;
+    width: 100%;
+    height: 2px;
+    border: 2px solid #f2f2f2;
+    background-color: #f2f2f2;
+    margin: 0 auto 85px;
+    opacity: 0.8; }
+  .team__box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 93px; }
+  .team__link {
+    display: flex;
+    justify-content: center; }
+  .team__button {
+    color: #e8e8e8;
+    font: 700 13px "Montserrat", sans-serif;
+    padding: 15px 23px;
+    border: 1px solid #e8e8e8;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box; }
+    .team__button:hover {
+      background-color: #e8e8e8;
+      color: #29323c; }
+  .team__section-header {
+    color: #f2f2f2;
+    margin-bottom: 17px; }
+
+.team__block {
+  max-width: 268px;
+  width: 100%;
+  height: 425px; }
+  .team__block--img {
+    max-width: 268px;
+    width: 100%;
+    height: 270px; }
+  .team__block--img-first-icon {
+    background-image: url("../img/img-first.png"); }
+  .team__block--Godrick-icon {
+    background-image: url("../img/Godrick.png"); }
+  .team__block--Rowena-icon {
+    background-image: url("../img/Rowena.png"); }
+  .team__block--Helga-icon {
+    background-image: url("../img/Helga.png"); }
+  .team__block--description {
+    max-width: 268px;
+    width: 100%;
+    height: 125px;
+    background-color: #f2f2f2;
+    padding-top: 31px;
+    opacity: 0.75; }
+  .team__block--description_title {
+    color: #29323c;
+    font: 700 15px "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 7px; }
+  .team__block--description_text {
+    opacity: 0.8;
+    color: #29323c;
+    font: 400 14px "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 23px; }
+  .team__block--description_social {
+    display: flex;
+    justify-content: center; }
+  .team__block--description_social-twitter, .team__block--description_social-linkedin, .team__block--description_social-vimeo, .team__block--description_social-dribbble {
+    background-color: #000000;
+    border: 4px solid #000000;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-right: 6px; }
+    .team__block--description_social-twitter a, .team__block--description_social-linkedin a, .team__block--description_social-vimeo a, .team__block--description_social-dribbble a {
+      color: #f2f2f2; }
+  .team__block--description_social-envelope {
+    font-size: 25px; }
+    .team__block--description_social-envelope a {
+      color: #000000; }
+
+.brand {
+  background-color: #f5f5f5;
+  padding-top: 52px;
+  padding-bottom: 43px; }
+  .brand__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .brand__img-cola {
+    max-width: 135px;
+    width: 100%;
+    height: 44px; }
+  .brand__img-dropbox {
+    max-width: 154px;
+    width: 100%;
+    height: 42px; }
+  .brand__img-intel {
+    max-width: 96px;
+    width: 100%;
+    height: 64px; }
+  .brand__img-zendesk {
+    max-width: 166px;
+    width: 100%;
+    height: 39px; }
+  .brand__img-nokia {
+    max-width: 150px;
+    width: 100%;
+    height: 25px; }
+  .brand__coca-cola-icon {
+    background-image: url("../img/coca-cola.png"); }
+  .brand__dropbox-icon {
+    background-image: url("../img/dropbox.png"); }
+  .brand__intel-icon {
+    background-image: url("../img/intel.png"); }
+  .brand__zendesk-icon {
+    background-image: url("../img/zendesk.png"); }
+  .brand__nokia-icon {
+    background-image: url("../img/nokia.png"); }

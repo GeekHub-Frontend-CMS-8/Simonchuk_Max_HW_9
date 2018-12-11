@@ -1,17 +1,6 @@
 .works
   padding-top: 99px
   padding-bottom: 101px
-  &__title
-    color: $second-color
-    font: 700 26px $font-Open-Sansbold
-    margin-bottom: 16px
-    text-align: center
-  &__text
-    opacity: 0.8
-    color: $second-color
-    font: 400 14px $font-Open-Sans
-    text-align: center
-    margin-bottom: 16px
   &__border
     max-width: 40px
     width: 100%
@@ -34,36 +23,9 @@
     max-width: 320px
     width: 100%
     height: 200px
-  &__img-first
-    background: url("../img/img-1.png")
-  &__img-second
-    background: url("../img/img-2.png")
-  &__img-third
-    background: url("../img/img-3.png")
-  &__img-fourth
-    background: url("../img/img-4.png")
-  &__img-fifth
-    background: url("../img/img-5.png")
-  &__img-sixth
-    background: url("../img/img-6.png")
-  &__img-seventh
-    background: url("../img/img-7.png")
-  &__img-eighth
-    background: url("../img/img-8.png")
-  &__img-ninth
-    background: url("../img/img-9.png")
-  &__img-tenth
-    background: url("../img/img-10.png")
-  &__img-eleventh
-    background: url("../img/img-11.png")
-  &__img-twelfth
-    background: url("../img/img-12.png")
-  &__img-thirteenth
-    background: url("../img/img-13.png")
-  &__img-fourteenth
-    background: url("../img/img-14.png")
-  &__img-fifteenth
-    background: url("../img/img-15.png")
+  @each $img in img-one, img-two, img-three, img-four, img-five, img-six, img-seven, img-eight, img-nine,img-ten, img-eleven ,img-twelf, img-thierteen, img-fourteen, img-fifteen,
+    &__#{$img}-icon
+      background-image: url('../img/#{$img}.png')
   &__item--hover
     display: flex
     flex-direction: column
@@ -87,3 +49,5 @@
     opacity: 0.8
     color: $third-color
     font: 400 13px $font-Montserrat
+  &__section-header
+    margin-bottom: 17px
