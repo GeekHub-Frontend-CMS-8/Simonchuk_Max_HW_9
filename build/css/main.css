@@ -142,19 +142,19 @@
     @media screen and (max-width: 768px) {
       .services__item {
         margin-bottom: 30px; } }
-  .services__img-first {
-    background: url("../img/first-bl.png"); }
-  .services__img-second {
-    background: url("../img/second-bl.png"); }
-  .services__img-third {
-    background: url("../img/third-bl.png"); }
-  .services__img-fourth {
-    background: url("../img/fourth-bl.png"); }
   .services__img {
     max-width: 120px;
     width: 100%;
     height: 120px;
     margin: 0 auto 39px; }
+  .services__first-bl-icon {
+    background-image: url("../img/first-bl.png"); }
+  .services__second-bl-icon {
+    background-image: url("../img/second-bl.png"); }
+  .services__third-bl-icon {
+    background-image: url("../img/third-bl.png"); }
+  .services__fourth-bl-icon {
+    background-image: url("../img/fourth-bl.png"); }
   .services__block-title {
     color: #29323c;
     font: 700 16px "Montserrat", sans-serif;
@@ -305,14 +305,33 @@
     margin: 0 auto 35px; }
   .clients__carousel--name {
     color: #29323c;
-    font: 700 15 px "Montserrat", sans-serif;
+    font: 700 15px "Montserrat", sans-serif;
     text-align: center;
     margin-bottom: 5px; }
   .clients__carousel--job {
     opacity: 0.8;
     color: #29323c;
     font: 400 13px "Montserrat", sans-serif;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 40px; }
+  .clients__input {
+    display: flex;
+    justify-content: center; }
+  .clients__radio-main {
+    border: 1px solid #29323c;
+    border-radius: 60%;
+    max-width: 15px;
+    width: 100%;
+    height: 15px;
+    margin-right: 5px;
+    background-color: #29323c; }
+  .clients__radio {
+    border: 1px solid #29323c;
+    max-width: 15px;
+    width: 100%;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 50%; }
   .clients__section-header_description::after {
     content: '';
     display: block;

@@ -23,19 +23,14 @@
     width: 100%
     @media screen and (max-width: 768px)
       margin-bottom: 30px
-  &__img-first
-    background: url("../img/first-bl.png")
-  &__img-second
-    background: url("../img/second-bl.png")
-  &__img-third
-    background: url("../img/third-bl.png")
-  &__img-fourth
-    background: url("../img/fourth-bl.png")
   &__img
     max-width: 120px
     width: 100%
     height: 120px
     margin: 0 auto 39px
+  @each $img in first-bl, second-bl, third-bl, fourth-bl
+    &__#{$img}-icon
+      background-image: url('../img/#{$img}.png')
   &__block-title
     color: $second-color
     font: 700 16px $font-Montserrat
