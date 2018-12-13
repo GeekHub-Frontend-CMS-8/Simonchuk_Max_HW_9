@@ -1,16 +1,20 @@
 .works
   padding-top: 99px
-  &__block
-    max-width: 1600px
-    margin: auto
-    width: 100%
+  &__box
     display: flex
-    justify-content: space-between
-    @media screen and (max-width: 1600px)
-      flex-direction: row
-      //align-items: center
-      justify-content: space-around
-      flex-wrap: wrap
+    flex-wrap: wrap
+    justify-content: center
+    max-width: 1600px
+    width: 100%
+    margin: 0 auto
+  &__block
+    position: relative
+    height: 200px
+    flex-wrap: nowrap
+    display: inline-block
+    z-index: 10
+    max-width: 320px
+    width: 100%
   &__item
     flex-basis: 100%
     position: relative
