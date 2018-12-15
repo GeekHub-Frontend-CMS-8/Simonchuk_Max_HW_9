@@ -1,0 +1,58 @@
+.header__navigation
+  display: flex
+  justify-content: space-between
+  justify-items: center
+  &--menu
+    display: flex
+    justify-content: space-between
+    align-items: center
+    font: 400/15px $font-Montserrat
+    color: $primary-color
+  &--list
+    margin-left: 10px
+.navBurger
+  cursor: pointer
+  background: $third-color
+  box-sizing: border-box
+  background-clip: content-box
+  width: 30px
+  height: 24px
+  margin-left: 15px
+  border-top: 11px solid transparent
+  border-bottom: 11px solid transparent
+  -webkit-transform: rotate(0deg)
+  transform: rotate(0deg)
+  -webkit-transition: all 0.25s ease-in-out
+  transition: all 0.25s ease-in-out
+  &:before,
+  &:after
+    content: ""
+    position: absolute
+    background: $third-color
+    height: 2px
+    width: 100%
+    right: 0
+    will-change: rotate
+  &:before
+    top: -10px
+  &:after
+    bottom: -10px
+    width: 90%
+  &.active
+    background: transparent
+    background-clip: content-box
+  &.active:before
+    -webkit-transform: rotate(135deg)
+    transform: rotate(135deg)
+    top: 0
+    background: #eee
+    width: 110%
+  &.active:after
+    bottom: 0
+    -webkit-transform: rotate(-135deg)
+    transform: rotate(-135deg)
+    background: #eee
+    width: 110%
+
+
+
